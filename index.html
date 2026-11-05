@@ -1,36 +1,37 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Painel do Computador</title>
-  <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cardápio</title>
+    <link rel="stylesheet" href="style.css">
 </head>
-<body>
-  <h1>Painel do Computador</h1>
-
-  <section>
-    <h2>Navegador e sistema</h2>
-    <table id="sistema"></table>
-  </section>
-
-  <section>
-    <h2>Tela e janela</h2>
-    <table id="tela"></table>
-  </section>
-
-  <section>
-    <h2>Localização</h2>
-    <button id="btn-local">Mostrar minha localização</button>
-    <p id="local"></p>
-  </section>
-
-  <section>
-    <h2>Arquivos</h2>
-    <input type="file" id="arquivos" multiple>
-    <table id="lista-arquivos"></table>
-  </section>
-
-  <script src="script.js"></script>
+<body> 
+    <header id="topo">
+          <h1>Lanchonete do Joel</h1>
+         <p>Cardápio de hoje</p>
+    </header>
+    <main>
+        <p id="resumo" class="aviso">Nenhum item selecionado</p>
+        <section class="card destaque">
+            <h2>X-Burguer</h2>
+            <p>Pão, hamburguer e queijo</p>
+            <span class="valor">R$ 30,00</span>
+        </section>
+        <section class="card">
+            <h2>X-Salada</h2>
+            <p>Pão, hamburguer, queijo, alface e tomate</p>
+            <span class="valor">R$ 25,00</span>
+        </section>
+        <section class="card">
+            <h2>X-Egg</h2>
+            <p>Pão, hamburguer, queijo e ovo</p>
+            <span class="valor">R$ 25,00</span>
+        </section>
+        <button id="limpar">Limpar seleção</button>
+    </main>
+    <footer id="contato">Pedidos:(61) 9990623793</footer>
+    <script src="script.js"></script>
 </body>
 </html>
+
