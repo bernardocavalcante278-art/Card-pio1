@@ -1,32 +1,59 @@
-body {
-  font-family: system-ui, sans-serif;
-  max-width: 700px;
-  margin: 0 auto;
-  padding: 1rem;
-  background: #f4f6fb;
-  color: #1b1f2a;
+body { margin:0;
+font-family: Arial,Helvetica,sans-seri;
+background-color: bisque;
+color: sienna;}
+
+header{background-color: lightpink;
+color: sienna;
+padding: 24px;
+text-align: center;
 }
 
-section {
-  background: white;
-  border: 1px solid #d5d9e5;
-  border-radius: 10px;
-  padding: 1rem;
-  margin-bottom: 1rem;
+main{
+    max-width:600px;
+    margin: 0 auto;
+    padding: 24px;
+}
+section{
+    background-color: floralwhite;
+    border-radius: 8px;
+    padding: 16px;
+    margin-bottom: 16px;
+}
+span{
+    font-weight: bold;
+    color:blue;
+}
+footer{text-align:center;padding:24px;}
+
+.card{
+    background-color: cornflowerblue;
+    border: 2px solid transparent;
+    border-radius: 8px;
+    padding: 16px;
+    margin-bottom: 20px;
+    cursor: pointer;
+
 }
 
-h1, h2 { margin-top: 0; }
-h2 { color: #2457d6; font-size: 1.1rem; }
+.card h2{margin:0 0 8px;}
 
-table { width: 100%; border-collapse: collapse; }
-td { padding: .4rem; border-bottom: 1px solid #e2e5ee; word-break: break-word; }
-td:first-child { font-weight: bold; width: 40%; }
+.valor{font-weight: bold; color:darkorange;}
 
-button {
-  padding: .5rem 1rem;
-  border: 0;
-  border-radius: 8px;
-  background: #2457d6;
-  color: white;
-  cursor: pointer;
+.destaque{background-color: pink;}
+.card.destaque h2{color:black;}
+ 
+#topo{background-color: firebrick; color: beige;}
+#contato{background-color: greenyellow}
+.selecionado{background-color: black;}
+#limpar{
+    padding: 8px;
+    border: 1px solid #4f4f4f;
+    background-color: azure;
+    color: blue;
+    border-radius: 6px;
+    cursor: pointer;
 }
+#resumo{color:red}
+.aviso{color:green}
+
